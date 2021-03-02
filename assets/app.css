@@ -1,0 +1,110 @@
+
+
+@font-face {
+    font-family: Pacifico;
+    src: url(Pacifico.ttf);
+}
+
+@font-face {
+    font-family: SF-Regular;
+    src: url(SF-Regular.ttf);
+}
+
+
+#middle {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+#icon {
+    width: 165px;
+    height: 165px;
+    text-align: center;
+}
+
+#textcontainer {
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+}
+
+h1.better {
+    font-family: Pacifico;
+    color: white;
+}
+
+h1.travel {
+    font-family: Pacifico;
+    color: #FCB371;
+}
+
+p.cheap {
+    font-family: SF-Regular;
+    color: #FFFFFF;
+}
+
+#buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    font-family: Pacifico;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background: rgba(42, 38, 61, 0);
+    border: 3px solid #FCB371;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color:white;
+}
+
+.reservation {
+    font-family: Pacifico;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background: #FCB371;
+    border: 2px solid #FCB371;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.submit {
+    align-items: center;
+    font-family: Pacifico;
+    cursor: pointer;
+    background: #FCB371;
+    border: 2px solid #FCB371;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+img.back{
+    height:50px;
+    width:50px;
+    margin-left:25px;
+    margin-top:75px;
+}
+
+p.ab{
+    font-family:Pacifico;
+    font-size:50px;
+    color: #fcb371;
+}
+
+p.isiabout {
+    font-family: SF-Regular;
+    font-size: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:white;
+}
